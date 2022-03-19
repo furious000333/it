@@ -1,0 +1,153 @@
+/* Style the header */
+.header {
+  padding: 10px 16px;
+  background: #202020;
+  color: #f1f1f1;
+  width: 1400px;
+  margin-top: -10px;
+  margin-left: -9px;  
+  height: 130px;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.rxt1 h1{
+  margin-left: 80px;
+  margin-top: px;
+
+}
+
+.rxt2 h3{
+  margin-left: 80px;
+  margin-top: px;
+  color: #4F4F4F;
+
+}
+
+.img {
+	margin-left: 80px;
+}
+
+.rxt3 h2{
+  margin-left: 80px;
+  margin-top: px;
+
+
+}
+
+table {
+    width: 50%; /* Ширина таблицы */ 
+    border-spacing: 5px; /* Расстояние между ячейками */
+    margin-left: 80px;
+    margin-top: -9950px;
+   }
+
+.img1 {
+	margin-left: 70px;
+}
+
+.poisk{
+	margin-left: 1000px;
+	margin-top: -120px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: -150px;
+	margin-left: 830px;
+}
+
+#content {
+    width: 500px; /* Ширина слоя */
+    margin: 0 auto 50px; /* Выравнивание по центру */
+   }
+#footer {
+    position:  /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #202020; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+    height: 200px;
+   }
+
+.xrt {
+  margin-left: 100px;
+}
+
+.ya {
+  margin-left: 100px;
+}
+
+.on {
+  margin-left: 950px;
+  margin-top: -1300px;
+}
+
+.xrt1 {
+  margin-left: 960px;
+  margin-top: -500px;
+}
+
+.rek {
+  background-color: #999999;
+  width: 600px;
+  height: 300px;
+   border-width:1;
+    border-color: #7A7A7A;
+    border-style: solid;
+}
+
+.sidenav {
+    height: 12500px; /* Full-height: remove this if you want "auto" height */
+    width: 189px; /* Set the width of the sidebar */
+    position: ; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #E1E1E1; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    }
+
+.obs {
+  margin-top: -12500px;
+}
+
+.sidenav1 {
+    height: 12500px; /* Full-height: remove this if you want "auto" height */
+    width: 189px; /* Set the width of the sidebar */
+    position: ; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #E1E1E1; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    margin-left: 1150px;
+    margin-top: -12519px;
+    }
